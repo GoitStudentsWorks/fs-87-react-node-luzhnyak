@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <Provider store={store}>
     <PersistGate persistor={persistor}>
-      <BrowserRouter basename="aqua-frontend">
+      <BrowserRouter basename="fs-87-react-node-luzhnyak">
         <App />
       </BrowserRouter>
     </PersistGate>
